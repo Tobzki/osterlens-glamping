@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiFillCloseCircle } from "react-icons/ai";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -13,16 +14,16 @@ const Navbar = () => {
       </div>
       <ul className="app__navbar_links">
         <li className="p__cormorant">
-          <a href="">Hem</a>
+          <Link to="/">Hem</Link>
         </li>
         <li className="p__cormorant">
-          <a href="">Bilder</a>
+          <Link to="/images">Bilder</Link>
         </li>
         <li className="p__cormorant">
-          <a href="">Priser & Bokning</a>
+          <Link to="/booking">Priser & Bokning</Link>
         </li>
         <li className="p__cormorant">
-          <a href="">Q&A</a>
+          <Link to="/questions">Q&A</Link>
         </li>
       </ul>
       <div className="app__navbar_smallscreen">
@@ -37,16 +38,16 @@ const Navbar = () => {
             />
             <ul className="app__navbar_smallscreen_links">
               <li className="p__cormorant">
-                <a>Hem</a>
+                <Link to="/">Hem</Link>
               </li>
               <li className="p__cormorant">
-                <a>Bilder</a>
+                <Link to="/images">Bilder</Link>
               </li>
               <li className="p__cormorant">
-                <a>Priser & Bokning</a>
+                <Link to="/booking">Priser & Bokning</Link>
               </li>
               <li className="p__cormorant">
-                <a>Q&A</a>
+                <Link to="/questions">Q&A</Link>
               </li>
             </ul>
           </div>
