@@ -6,7 +6,7 @@ import Footer from "./components/Footer/Footer";
 const App = () => {
   return (
     <div className="flex__center">
-      <p className="p__cormorant">Österlens Glamping</p>
+      <Navbar />
     </div>
   );
 };
