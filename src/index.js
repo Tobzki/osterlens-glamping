@@ -10,7 +10,7 @@ import QA from "./pages/QA/QA";
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<App />} />
+      <Route path="/" element={<Home />} />
       <Route path="/images" element={<Images />} />
       <Route path="/booking" element={<PricesBookings />} />
       <Route path="/questions" element={<QA />} />
