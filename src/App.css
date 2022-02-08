@@ -74,7 +74,7 @@
   text-transform: capitalize;
   font-feature-settings: "tnum" on, "lnum" on;
   line-height: 29.9px;
-  font-size: 23px;
+  font-size: 16px;
 }
 
 .p__opensans {
@@ -90,7 +90,7 @@
 .headtext__peppins {
   font-family: var(--font-base);
   color: var(--color-green);
-  font-size: 64px;
+  font-size: 34px;
   line-height: 83.2px;
   letter-spacing: 0.04em;
   text-transform: capitalize;
