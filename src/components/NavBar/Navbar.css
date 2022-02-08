@@ -87,4 +87,7 @@
   .app__navbar {
     padding: 1rem;
   }
+  .navbar__peppins {
+    font-size: 22px;
+  }
 }
