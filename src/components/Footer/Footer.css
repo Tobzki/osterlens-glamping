@@ -1,0 +1,15 @@
+.app__footer_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+}
+
+.app__footer_container a {
+  padding: 12px;
+}
+
+.app__footer_container a:hover {
+  color: var(--color-green);
+  cursor: pointer;
+}

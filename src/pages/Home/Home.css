@@ -1,0 +1,38 @@
+.app__home_container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__home_content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.app__home_info {
+  text-align: center;
+  padding: 32px;
+}
+
+.app__home_content img {
+  width: 420px;
+  height: 420px;
+}
+
+@media only screen and (max-width: 600px) {
+  .app__home_content {
+    flex-direction: column;
+  }
+  .app__home_content img {
+    width: 220px;
+    height: 220px;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .app__home_content img {
+    width: 820px;
+    height: 820px;
+  }
+}
