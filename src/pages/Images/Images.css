@@ -1,5 +1,5 @@
 .swiper {
-  width: 100%;
+  width: 80%;
   height: 100vh;
 }
 
@@ -24,26 +24,43 @@
 
 .swiper-slide img {
   display: block;
-  height: 950px;
-  width: 950px;
+  height: 650px;
+  width: 650px;
   object-fit: cover;
 }
 
 .swiper-button-next {
-  display: none;
+  color: var(--color-green);
 }
 
 .swiper-button-prev {
-  display: none;
+  color: var(--color-green);
 }
 
 .swiper-pagination-bullet {
-  background-color: var(--color-green);
+  display: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) {
   .swiper-slide img {
-    height: 80%;
-    width: 80%;
+    width: 425px;
+    height: 425px;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .swiper-slide img {
+    height: 1024px;
+    width: 1024px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .swiper-button-next {
+    display: none;
+  }
+
+  .swiper-button-prev {
+    display: none;
   }
 }

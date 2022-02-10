@@ -11,13 +11,23 @@
   align-items: center;
 }
 .app__home_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   padding: 32px;
 }
 
 .app__home_content img {
-  width: 420px;
-  height: 420px;
+  width: 820px;
+  height: 820px;
+}
+
+.app__home__cormorant {
+  max-width: 80%;
+  text-align: center;
+  margin-top: 15%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -25,14 +35,7 @@
     flex-direction: column;
   }
   .app__home_content img {
-    width: 220px;
-    height: 220px;
-  }
-}
-
-@media only screen and (min-width: 2000px) {
-  .app__home_content img {
-    width: 820px;
-    height: 820px;
+    width: 420px;
+    height: 420px;
   }
 }

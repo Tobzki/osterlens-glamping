@@ -79,7 +79,7 @@
 
 .p__opensans {
   font-family: var(--font-alt);
-  color: var(--color-white);
+  color: var(--color-black);
   font-weight: 400;
   letter-spacing: 0.04em;
   text-transform: capitalize;
@@ -90,7 +90,7 @@
 .headtext__peppins {
   font-family: var(--font-base);
   color: var(--color-green);
-  font-size: 34px;
+  font-size: 64px;
   line-height: 83.2px;
   letter-spacing: 0.04em;
   text-transform: capitalize;
