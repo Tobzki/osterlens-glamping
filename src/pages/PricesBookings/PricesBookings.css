@@ -52,4 +52,5 @@ textarea {
 }
 .app__contactform_form p {
   padding: 16px;
+  color: var(--color-white);
 }
