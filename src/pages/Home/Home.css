@@ -20,22 +20,46 @@
 }
 
 .app__home_content img {
-  width: 820px;
-  height: 820px;
+  width: 420px;
+  height: 420px;
 }
 
 .app__home__cormorant {
   max-width: 80%;
   text-align: center;
-  margin-top: 15%;
 }
 
-@media only screen and (max-width: 600px) {
+.app__home_content h1 {
+  padding: 16px;
+}
+
+@media only screen and (max-width: 1150px) {
   .app__home_content {
     flex-direction: column;
   }
   .app__home_content img {
     width: 420px;
     height: 420px;
+  }
+}
+
+@media only screen and (min-width: 1150px) {
+  .app__home_content img {
+    width: 820px;
+    height: 820px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .app__home_content img {
+    height: 225px;
+    width: 225px;
+  }
+  .app__home_content h1 {
+    font-size: 32px;
+  }
+  .app__home_container {
+    margin-top: 35%;
+    margin-bottom: 35%;
   }
 }
