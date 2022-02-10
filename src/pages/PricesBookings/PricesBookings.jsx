@@ -19,7 +19,7 @@ const PricesBookings = () => {
         "user_P1QCxI5DakCX6LCc5yp9B"
       )
       .then((res) => {
-        console.log(res);
+        setIsEmailSent(true);
       })
       .catch((err) => console.log(err));
   };
@@ -56,6 +56,9 @@ const PricesBookings = () => {
             rows="4"
             placeholder="När vill ni besöka oss?"
           ></textarea>
+          {isEmailSent && (
+            <p className="p__cormorant">Vi kommer kontakta dig!</p>
+          )}
           <button>Skicka</button>
         </form>
       </div>

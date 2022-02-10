@@ -44,3 +44,12 @@ textarea {
   margin: 20px auto 0;
   border-radius: 30px;
 }
+
+.app__isemailsent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app__contactform_form p {
+  padding: 16px;
+}
