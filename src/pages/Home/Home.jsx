@@ -12,7 +12,7 @@ const Home = () => {
         <div className="app__home_content">
           <div className="app__home_info">
             <h1 className="headtext__peppins">Om Oss</h1>
-            <p className="p__cormorant app__home__cormorant">
+            <p className="p__opensans app__home__cormorant">
               Robin och Hanna heter vi somRobin och Hanna heter vi somRobin och
               Hanna heter vi somRobin och Hanna heter vi somRobin och Hanna
               heter vi som Robin och Hanna heter vi somRobin och Hanna heter vi
