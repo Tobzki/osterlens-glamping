@@ -26,6 +26,18 @@ const PricesBookings = () => {
   return (
     <>
       <Navbar />
+      <div className="app__contactform_prices_container">
+        <div className="app__contactform_prices">
+          <h1 className="headtext__peppins">Priser</h1>
+          <p className="p__cormorant">1 Natt - 1500kr</p>
+          <p className="p__cormorant">1 Natt - 1500kr</p>
+          <p className="p__cormorant">1 Natt - 1500kr</p>
+          <p className="p__cormorant">1 Natt - 1500kr</p>
+          <p className="p__opensans">
+            Gör gärna en bokningsförfrågan nedan så svarar vi så snart vi kan.
+          </p>
+        </div>
+      </div>
       <div className="app__contactform_container">
         <form className="app__contactform_form" onSubmit={sendEmail}>
           <h1 className="headtext__peppins">Kontakta Oss</h1>

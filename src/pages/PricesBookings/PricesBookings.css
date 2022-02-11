@@ -1,18 +1,30 @@
 .app__contactform_container {
   width: 100%;
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+.app__contactform_prices_container {
+  display: flex;
+  justify-content: center;
+}
+.app__contactform_prices {
+  text-align: center;
+  border: 2px solid var(--color-green);
+  padding: 12px;
+  margin: 3rem;
+}
+.app__contactform_prices p {
+  margin: 1rem 0;
+}
 .app__contactform_form {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   padding: 2vw 4vw;
-  width: 90%;
+  width: 80%;
   max-width: 600px;
   border-radius: 10px;
   background-color: var(--color-green);
