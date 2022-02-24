@@ -1,0 +1,65 @@
+.app__home_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.app__home_content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.app__home_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 32px;
+}
+
+.app__home_content img {
+  width: 420px;
+  height: 420px;
+}
+
+.app__home__cormorant {
+  max-width: 80%;
+  text-align: center;
+}
+
+.app__home_content h1 {
+  padding: 16px;
+}
+
+@media only screen and (max-width: 1150px) {
+  .app__home_content {
+    flex-direction: column;
+  }
+  .app__home_content img {
+    width: 420px;
+    height: 420px;
+  }
+}
+
+@media only screen and (min-width: 1150px) {
+  .app__home_content img {
+    width: 520px;
+    height: 520px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .app__home_content img {
+    height: 225px;
+    width: 225px;
+  }
+  .app__home_content h1 {
+    font-size: 32px;
+  }
+  .app__home_container {
+    margin-top: 35%;
+    margin-bottom: 35%;
+  }
+}

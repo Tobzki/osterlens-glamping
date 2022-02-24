@@ -1,0 +1,33 @@
+.app__footer_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 32px;
+}
+.app__footer_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.app__footer_icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.app__footer_text h1 {
+  font-size: 16px;
+}
+.app__footer_text p {
+  font-size: 14px;
+}
+.app__footer_icons a {
+  padding: 12px;
+}
+
+.app__footer_icons a:hover {
+  color: var(--color-green);
+  cursor: pointer;
+}
