@@ -2,7 +2,6 @@ import React from "react";
 import Navbar from "../../components/NavBar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import image00 from "../../assets/image00.jpg";
-import image01 from "../../assets/image01.jpg";
 import "./Home.css";
 const Home = () => {
   return (
