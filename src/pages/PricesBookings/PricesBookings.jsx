@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Navbar from "../../components/NavBar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import emailjs from "emailjs-com";
-
 import "./PricesBookings.css";
 
 const PricesBookings = () => {
